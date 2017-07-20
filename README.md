@@ -6,14 +6,14 @@ A simple demo about user manager (login/logout/change psw/isLogin/register/forge
 
 #### UI 如下：
 
-![image](https://github.com/Yee-chen/LoginDemo/tree/master/screenshots/register.jpeg)
+![image](https://github.com/Yee-chen/LoginDemo/blob/master/screenshots/register.jpeg)
 
-![image](https://github.com/Yee-chen/LoginDemo/tree/master/screenshots/login.jpeg)
+![image](https://github.com/Yee-chen/LoginDemo/blob/master/screenshots/login.jpeg)
 
-![image](https://github.com/Yee-chen/LoginDemo/tree/master/screenshots/success.jpeg)
+![image](https://github.com/Yee-chen/LoginDemo/blob/master/screenshots/success.jpeg)
 
-![image](https://github.com/Yee-chen/LoginDemo/tree/master/screenshots/in.jpeg)
+![image](https://github.com/Yee-chen/LoginDemo/blob/master/screenshots/in.jpeg)
 
-![image](https://github.com/Yee-chen/LoginDemo/tree/master/screenshots/find.jpeg)
+![image](https://github.com/Yee-chen/LoginDemo/blob/master/screenshots/find.jpeg)
 
-![image](https://github.com/Yee-chen/LoginDemo/tree/master/screenshots/change.jpeg)
+![image](https://github.com/Yee-chen/LoginDemo/blob/master/screenshots/change.jpeg)
