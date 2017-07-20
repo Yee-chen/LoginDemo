@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">注册登录</string>
+    <string name="action_settings">Settings</string>
+    <string name="id">请输入手机号</string>
+    <string name="login">登 录</string>
+    <string name="password">请输入6~20位的密码</string>
+    <string name="misspassword">无法登录？</string>
+    <string name="newuser">免费注册</string>
+    <string name="back">返回</string>
+    <string name="register">注 册</string>
+    <string name="auth_code">验证码</string>
+    <string name="check">换一张</string>
+    <string name="isture">确 认</string>
+    <string name="findpassword">找回密码</string>
+    <string name="truepassword">确认您的密码</string>
+    <string name="id_true">格式错误</string>
+    <string name="pstrue">密码不一致</string>
+    <string name="autetrue">验证码错误</string>
+    <string name="changepw">修改密码</string>
+    <string name="resetpw">重置密码</string>
+    <string name="true_change">确认修改</string>
+    <string name="newpassword">请输入6~20位的新密码</string>
+    <string name="oldpasswors">请输入旧密码</string>
+    <string name="idh">用户不存在</string>
+    <string name="wrongpw">密码输入错误</string>
+    <string name="submit">提 交</string>
+    <string name="please_wait">请稍等...</string>
+    <string name="hint">提示</string>
+    <string name="change_psw_success">修改成功！</string>
+    <string name="change_psw_fail">修改失败！</string>
+    <string name="time_out">请求超时...</string>
+    <string name="getting_authcode">正在获取验证码...</string>
+    <string name="number_again">手机号码不正确，请重新填写！</string>
+    <string name="number_first">请先填写手机号码！</string>
+    <string name="number_cannot_null">号码不能为空！</string>
+    <string name="get_authcode_first">请先获取短信验证码！</string>
+    <string name="please_set_newpsw">请设置新密码！</string>
+    <string name="user_not_register">用户未注册！</string>
+    <string name="confirm_fail">提交失败！</string>
+    <string name="authcode_wrong">验证码错误！</string>
+    <string name="wait_message">获取验证码成功，等待短信！</string>
+    <string name="get_authcode_fail">获取验证码失败！</string>
+    <string name="JSON_exception">返回结果JSON解析异常！</string>
+    <string name="get_authcode">获取验证码</string>
+    <string name="full_username_and_psw">请输入完整的用户名或密码</string>
+    <string name="login_ing">正在登录...</string>
+    <string name="login_success">登录成功！</string>
+    <string name="login_fail">登录失败！</string>
+    <string name="register_ing">正在注册...</string>
+    <string name="register_success">注册成功！</string>
+    <string name="register_fail">注册失败</string>
+    <string name="psw_not_same">密码不一致！</string>
+    <string name="reset_psw_success">密码重置成功！</string>
+    <string name="reset_psw_fail">密码重置失败！</string>
+    <string name="oldpsw_erro">旧密码错误</string>
+    <string name="user_psw_erro">用户名或密码错误</string>
+    <string name="logout_success">登出成功</string>
+    <string name="logout_fail">登出失败</string>
+
+</resources>

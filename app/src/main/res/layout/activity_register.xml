@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/registerTop"
+        style="@style/title_relayout" >
+
+        <Button
+            android:id="@+id/registerBack"
+            style="@style/back_btn" />
+
+        <TextView
+            android:id="@+id/registerBackText"
+            style="@style/back_text"
+            android:layout_toRightOf="@+id/registerBack" />
+
+        <TextView
+            android:id="@+id/registerTitle"
+            style="@style/title_text"
+            android:text="@string/register" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/registerUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerTop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/login"
+        android:src="@drawable/tou" />
+
+    <LinearLayout
+        android:id="@+id/registerli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerUser"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/registerId_tx_li"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/registerId"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:hint="@string/id"
+                    android:textColorHint="#CDCDC1"
+                    android:textSize="16sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:id="@+id/registerIdText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:visibility="invisible"
+                    android:text="@string/id_true"
+                    android:textColor="#ff0000"
+                    android:layout_alignRight="@+id/registerId"
+                    android:layout_alignEnd="@+id/registerId" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/getMessage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_bg"
+                android:text="获取验证码"
+                android:textSize="16sp"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/registerline"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#D7D7D7"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/registerPassword_tx_li"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColorHint="#CDCDC1"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/registerPwText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:visibility="invisible"
+                android:text="@string/id_true"
+                android:textColor="#ff0000" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/registerline1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#D7D7D7"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/registerAuth_tx_li"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/registerAuth"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:hint="@string/auth_code"
+                android:textColorHint="#CDCDC1"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/registerli"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"
+        android:includeFontPadding="false"
+        android:text="@string/register"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
